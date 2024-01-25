@@ -23,6 +23,7 @@ partial class WindowsScheduleMainService : ServiceBase
         AutoLog = true;
     }
 
+
     protected override void OnStart(string[] args)
     {
         EventLog.WriteEntry("The WindowsScheduleMainService was started successfully.", EventLogEntryType.Information);
